@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/product_shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Название продукта"
+            android:textAlignment="center"
+            android:layout_weight="10">
+        </EditText>
+        <Button
+            android:id="@+id/cardRemoveButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:backgroundTint = "#7A6767"
+            android:text="X"/>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:text="Цена"/>
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Количество"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_row="0"
+            android:layout_column="1"/>
+        <EditText
+            android:id="@+id/product_quantity"
+            android:inputType="numberDecimal"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_row="1"
+            android:textSize="16sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="Стоимость"
+            android:layout_row="0"
+            android:textSize="16sp"
+            android:layout_column="2"/>
+        <EditText
+            android:id="@+id/product_sum"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_row="1"
+            android:textSize="16sp"
+            android:layout_column="2"/>
+
+    </GridLayout>
+</LinearLayout>

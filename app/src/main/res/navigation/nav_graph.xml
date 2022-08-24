@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/CatalogFragment">
+
+    <fragment
+        android:id="@+id/CatalogFragment"
+        android:name="com.artemkinko.receipt_manager.View.CatalogFragment"
+        android:label="@string/catalog_fragment_label"
+        tools:layout="@layout/fragment_add">
+
+        <action
+            android:id="@+id/action_addReceipt"
+            app:destination="@id/AddFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddFragment"
+        android:name="com.artemkinko.receipt_manager.View.AddFragment"
+        android:label="@string/add_fragment_label"
+        tools:layout="@layout/fragment_add">
+
+        <action
+            android:id="@+id/action_qrScan"
+            app:destination="@id/QrFragment" />
+
+        <action
+            android:id="@+id/action_backToCatalog"
+            app:destination="@id/CatalogFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/QrFragment"
+        android:name="com.artemkinko.receipt_manager.View.QrFragment"
+        android:label="@string/qr_fragment_label"
+        tools:layout="@layout/fragment_qr">
+
+        <action
+            android:id="@+id/action_backToAdd"
+            app:destination="@id/AddFragment"/>
+    </fragment>
+</navigation>

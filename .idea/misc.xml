@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/delbutton_shape.xml" value="0.1865" />
+        <entry key="app/src/main/res/drawable/grid_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/grid_header.xml" value="0.1015" />
+        <entry key="app/src/main/res/drawable/product_shape.xml" value="0.1865" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30092592592592593" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.30512820512820515" />
+        <entry key="app/src/main/res/layout/fragment_add.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_catalog.xml" value="0.2028096516927084" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_qr.xml" value="0.21671826625386997" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/product_card.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/receipt_card.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

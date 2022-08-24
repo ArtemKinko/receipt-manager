@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">receipt-manager</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="catalog_fragment_label">Трекер Ваших покупок</string>
+    <string name="add_fragment_label">Добавляем новый чек</string>
+    <string name="qr_fragment_label">Сканируем Ваш чек</string>
+    <string name="addReceipt">Добавить чек</string>
+</resources>
